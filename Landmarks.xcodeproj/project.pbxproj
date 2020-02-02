@@ -17,6 +17,7 @@
 		490C486223D4DE21008FE13C /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C486123D4DE21008FE13C /* LandmarksUITests.swift */; };
 		496653E223DCFD2A00DC6D7A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496653E123DCFD2A00DC6D7A /* CircleImage.swift */; };
 		496653E423DCFE2500DC6D7A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496653E323DCFE2500DC6D7A /* MapView.swift */; };
+		497486D923DDAF85009CD6F7 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 497486D823DDAF85009CD6F7 /* charleyrivers.jpg */; };
 		49BECAB723DDA1630080C370 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BECAB623DDA1630080C370 /* Landmark.swift */; };
 		49BECAC623DDA1F60080C370 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BECAB923DDA1F60080C370 /* turtlerock.jpg */; };
 		49BECAC723DDA1F60080C370 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BECABA23DDA1F60080C370 /* silversalmoncreek.jpg */; };
@@ -34,6 +35,7 @@
 		49BECAD423DDA29B0080C370 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BECAD323DDA29B0080C370 /* Data.swift */; };
 		49BECAD623DDA2E90080C370 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BECAD523DDA2E90080C370 /* LandmarkRow.swift */; };
 		49BECAD823DDA4280080C370 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BECAD723DDA4280080C370 /* LandmarkList.swift */; };
+		49FCCE4E23E6D4C300FB35EB /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCE4D23E6D4C300FB35EB /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,7 @@
 		490C486323D4DE21008FE13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496653E123DCFD2A00DC6D7A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		496653E323DCFE2500DC6D7A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		497486D823DDAF85009CD6F7 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		49BECAB623DDA1630080C370 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		49BECAB923DDA1F60080C370 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		49BECABA23DDA1F60080C370 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 		49BECAD323DDA29B0080C370 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		49BECAD523DDA2E90080C370 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		49BECAD723DDA4280080C370 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		49FCCE4D23E6D4C300FB35EB /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 			children = (
 				49BECAB623DDA1630080C370 /* Landmark.swift */,
 				49BECAD323DDA29B0080C370 /* Data.swift */,
+				49FCCE4D23E6D4C300FB35EB /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 		49BECAB823DDA1F60080C370 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				497486D823DDAF85009CD6F7 /* charleyrivers.jpg */,
 				49BECAB923DDA1F60080C370 /* turtlerock.jpg */,
 				49BECABA23DDA1F60080C370 /* silversalmoncreek.jpg */,
 				49BECABB23DDA1F60080C370 /* icybay.jpg */,
@@ -328,6 +334,7 @@
 				490C484C23D4DE21008FE13C /* LaunchScreen.storyboard in Resources */,
 				49BECACC23DDA1F60080C370 /* umbagog.jpg in Resources */,
 				49BECAD023DDA1F60080C370 /* stmarylake.jpg in Resources */,
+				497486D923DDAF85009CD6F7 /* charleyrivers.jpg in Resources */,
 				49BECACE23DDA1F60080C370 /* chincoteague.jpg in Resources */,
 				490C484923D4DE21008FE13C /* Preview Assets.xcassets in Resources */,
 				49BECAC823DDA1F60080C370 /* icybay.jpg in Resources */,
@@ -369,6 +376,7 @@
 				490C484223D4DE20008FE13C /* SceneDelegate.swift in Sources */,
 				490C484423D4DE20008FE13C /* LandmarkDetail.swift in Sources */,
 				49BECAD623DDA2E90080C370 /* LandmarkRow.swift in Sources */,
+				49FCCE4E23E6D4C300FB35EB /* UserData.swift in Sources */,
 				49BECAB723DDA1630080C370 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,14 +544,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = G747VTVU72;
+				DEVELOPMENT_TEAM = B8H23A54J5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.serhatsahin.tutorial.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = me.serhatsahin.tutorial.Landmarks3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,14 +564,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = G747VTVU72;
+				DEVELOPMENT_TEAM = B8H23A54J5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.serhatsahin.tutorial.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = me.serhatsahin.tutorial.Landmarks3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
